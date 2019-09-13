@@ -8,19 +8,19 @@ class IntroSection extends React.Component {
     return (
       <div>
         <section id="intro">
-          <div class="intro-overlay"></div>
+          <div className="intro-overlay"></div>
 
-          <div class="intro-content">
-            <div class="row">
-              <div class="col-twelve">
+          <div className="intro-content">
+            <div className="row">
+              <div className="col-twelve">
                 <h5>Hello, World.</h5>
                 <h1>I'm Abhishek Bisht.</h1>
 
-                <p class="intro-position">
+                <p className="intro-position">
                   <span>Front-end Developer</span>
                 </p>
 
-                <a class="button stroke smoothscroll" href="#about" title="">
+                <a className="button stroke smoothscroll" href="#about" title="">
                   More About Me
                 </a>
               </div>
@@ -28,30 +28,30 @@ class IntroSection extends React.Component {
           </div>
           {/* <!-- /intro-content -->  */}
 
-          <ul class="intro-social">
+          <ul className="intro-social">
             <li>
-              <a href="#facebook">
-                <i class="fa fa-facebook"></i>
+              <a href="https://www.facebook.com/bishty1810" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="#github">
-                <i class="fa fa-github"></i>
+              <a href="https://github.com/Abishty" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="#twitter">
-                <i class="fa fa-twitter"></i>
+              <a href="https://twitter.com/Bishty1810" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="#linkedin">
-                <i class="fa fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/abhishek-bisht-b13b7287/" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="#instagram">
-                <i class="fa fa-instagram"></i>
+              <a href="https://www.instagram.com/bishty1810/" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-instagram"></i>
               </a>
             </li>
           </ul>

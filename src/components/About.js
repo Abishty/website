@@ -9,15 +9,15 @@ class About extends React.Component {
     return (
       <div>
         <section id="about">
-          <div class="row section-intro">
-            <div class="col-twelve">
+          <div className="row section-intro">
+            <div className="col-twelve">
               <h5>About</h5>
               <h1>Let me introduce myself.</h1>
 
-              <div class="intro-info">
-                <img src={profile} alt="Profile Picture"></img>
+              <div className="intro-info">
+                <img src={profile} alt="Profile"></img>
 
-                <p class="lead">
+                <p className="lead">
                   Lorem ipsum Exercitation culpa qui dolor consequat
                   exercitation fugiat laborum ex ea eiusmod ad do aliqua
                   occaecat nisi ad irure sunt id pariatur Duis laboris amet
@@ -28,8 +28,8 @@ class About extends React.Component {
           </div>
           {/* <!-- /section-intro --> */}
 
-          <div class="row about-content">
-            <div class="col-six tab-full">
+          <div className="row about-content">
+            <div className="col-six tab-full">
               <h3>Profile</h3>
               <p>
                 Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut
@@ -37,7 +37,7 @@ class About extends React.Component {
                 magna pariatur nisi cillum.
               </p>
 
-              <ul class="info-list">
+              <ul className="info-list">
                 <li>
                   <strong>Fullname:</strong>
                   <span>Abhishek Bisht</span>
@@ -62,7 +62,7 @@ class About extends React.Component {
               {/* <!-- /info-list --> */}
             </div>
 
-            <div class="col-six tab-full">
+            <div className="col-six tab-full">
               <h3>Skills</h3>
               <p>
                 Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut
@@ -70,33 +70,33 @@ class About extends React.Component {
                 magna pariatur nisi cillum.
               </p>
 
-              <ul class="skill-bars">
+              <ul className="skill-bars">
                 <li>
-                  <div class="progress percent90">
+                  <div className="progress percent90">
                     <span>90%</span>
                   </div>
                   <strong>HTML5</strong>
                 </li>
                 <li>
-                  <div class="progress percent85">
+                  <div className="progress percent85">
                     <span>85%</span>
                   </div>
                   <strong>CSS3</strong>
                 </li>
                 <li>
-                  <div class="progress percent70">
+                  <div className="progress percent70">
                     <span>70%</span>
                   </div>
                   <strong>JQuery</strong>
                 </li>
                 <li>
-                  <div class="progress percent95">
+                  <div className="progress percent95">
                     <span>95%</span>
                   </div>
                   <strong>Javascript</strong>
                 </li>
                 <li>
-                  <div class="progress percent75">
+                  <div className="progress percent75">
                     <span>75%</span>
                   </div>
                   <strong>React</strong>
@@ -106,16 +106,16 @@ class About extends React.Component {
             </div>
           </div>
 
-          <div class="row button-section">
-            <div class="col-twelve">
+          <div className="row button-section">
+            <div className="col-twelve">
               <a
                 href="#contact"
                 title="Hire Me"
-                class="button stroke smoothscroll"
+                className="button stroke smoothscroll"
               >
                 Hire Me
               </a>
-              <a href="#" title="Download CV" class="button button-primary">
+              <a href="#DownloadCV" title="Download CV" className="button button-primary">
                 Download CV
               </a>
             </div>

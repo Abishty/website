@@ -1,4 +1,7 @@
 import React from "react";
+import "../assets/css/base.css";
+import "../assets/css/main.css";
+import "../assets/css/vendor.css";
 
 class IntroSection extends React.Component {
   render() {

@@ -4,6 +4,7 @@ import IntroSection from './components/IntroSection';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 class App extends React.Component {
     render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
                 <About/>
                 <Resume/>
                 <Portfolio/>
+                <Contact/>
             </div>
         )
     }
